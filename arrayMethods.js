@@ -42,3 +42,10 @@ brownOnly.splice(1,5,'brown','brown','brown');
 var orderedValuesNewLength = orderedValues.unshift(1,2,3);
 
 var randomThingsArray = genericNumberArray.concat(colors);
+
+var updatedOrders = orderQueue.concat({takeOut: 'beer'} , {takeOut: 'tacos'});
+
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
+
+var favoriteFriends = friends.slice(1,3);
